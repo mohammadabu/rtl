@@ -300,6 +300,9 @@ float: left;
 float: left;
 
 }
+.oe_button_box.btn:not(:disabled):not(.disabled){
+  float: right;  
+}
 /*--------------------------Calendar View------------------------------------*/
 .o_calendar_container{
    direction: rtl;
