@@ -463,7 +463,7 @@ display: flex !important;
 }
 
 /*------------------------Kanban View--------------------*/
-/*.o_kanban_view .o_kanban_record .o_kanban_button > button, .o_kanban_view .o_kanban_record .o_kanban_button > a{
+.o_kanban_view .o_kanban_record .o_kanban_button > button, .o_kanban_view .o_kanban_record .o_kanban_button > a{
   right: auto;
   left: 8px;
 }
@@ -480,15 +480,15 @@ float: left;
 }
 .rtl  .oe_kanban_view .oe_dropdown_kanban{
   float: left;
-}*/
+}
 /*--------------------application header-------------------*/
-/*.rtl  .oe_view_manager table.oe_view_manager_header h2 {
+.rtl  .oe_view_manager table.oe_view_manager_header h2 {
     float: right;
-}*/
+}
 /*----------------------------Messageing--------------------------*/
-/*.rtl  .oe_mail .oe_attachment img {
+.rtl  .oe_mail .oe_attachment img {
 left:auto
-}*/
+}
 /*----------------------------followers--------------------------*/
 .rtl  .oe_followers .oe_remove_follower {
   right:auto;
@@ -824,7 +824,7 @@ float: left !important;
 .fa-caret-down:before {
     content: "\f0d7";
 }
-/*.o_kanban_view .o_kanban_record .o_kanban_image{
+.o_kanban_view .o_kanban_record .o_kanban_image{
   float: right;
 }
 .o_kanban_view .o_kanban_record .o_kanban_image+div{
@@ -833,8 +833,8 @@ float: left !important;
 }
 .o_kanban_view .o_kanban_record .o_kanban_tags{
   margin: 0 -8px 8px 0px;
-}*/
-/*
+}
+
  .oe_form > :not(.oe_form_nosheet) header > button,  .oe_form > .oe_form_nosheet header > button {
     margin: 5px 2px;
 }
@@ -849,7 +849,7 @@ float: left !important;
 .oe_radio_input + label{
   margin-right: 20px;
 }
-*/
+
 
 /*---- chat -----*/
 .o_mail_chat .o_mail_chat_sidebar{
