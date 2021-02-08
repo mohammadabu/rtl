@@ -114,7 +114,9 @@ right:0px;
 .rtl  .oe_dropdown_menu > li > a {
 width:115px;
 }
-
+html body.rtl.o_web_client{
+  direction: rtl;
+}
 /*--------------------Settings------------------*/
 
 .form-row{
@@ -418,8 +420,8 @@ view switch manager
     float: left !important;
 }
 .o_main_navbar .o_user_menu{
-float: left !important;
-margin-left: 60px !important;
+float: right !important;
+margin-right: 60px !important;
 }
 .o_mail_systray_item{
 float: right !important;
