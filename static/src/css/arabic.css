@@ -7,7 +7,7 @@
 .set-grey{
   background: #aaa !important;
 }
-@font-face {
+/* @font-face {
   font-family: 'Droid Arabic Kufi';
   font-style: normal;
   font-weight: 400;
@@ -48,7 +48,7 @@
 /*
  * Amiri (Arabic) http://www.google.com/fonts/earlyaccess
  */
-@font-face {
+/* @font-face {
   font-family: 'Amiri';
   font-style: italic;
   font-weight: 400;
@@ -56,8 +56,8 @@
   src: url(/rtl/static/src/fonts/Amiri-Slanted.woff2) format('woff2'),
        url(/rtl/static/src/fonts/Amiri-Slanted.woff) format('woff'),
        url(/rtl/static/src/fonts/Amiri-Slanted.ttf) format('truetype');
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'Amiri';
   font-style: normal;
   font-weight: 400;
@@ -65,8 +65,8 @@
   src: url(/rtl/static/src/fonts/Amiri-Regular.woff2) format('woff2'),
        url(/rtl/static/src/fonts/Amiri-Regular.woff) format('woff'),
        url(/rtl/static/src/fonts/Amiri-Regular.ttf) format('truetype');
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'Amiri';
   font-style: italic;
   font-weight: 700;
@@ -74,8 +74,8 @@
   src: url(/rtl/static/src/fonts/Amiri-BoldSlanted.woff2) format('woff2'),
        url(/rtl/static/src/fonts/Amiri-BoldSlanted.woff) format('woff'),
        url(/rtl/static/src/fonts/Amiri-BoldSlanted.ttf) format('truetype');
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'Amiri';
   font-style: normal;
   font-weight: 700;
@@ -83,17 +83,17 @@
   src: url(/rtl/static/src/fonts/Amiri-Bold.woff2) format('woff2'),
        url(/rtl/static/src/fonts/Amiri-Bold.woff) format('woff'),
        url(/rtl/static/src/fonts/Amiri-Bold.ttf) format('truetype');
-}
+} */
 
-.rtl{direction:rtl}
-*:not(.fa){font-family: 'Droid Arabic Naskh', serif;}
+/* .rtl{direction:rtl}
+*:not(.fa){font-family: 'Droid Arabic Naskh', serif;} */
 
 /*
 * reset switch manager fonts
 */
-.rtl .oe_e, .rtl .oe_e a  {
+/* .rtl .oe_e, .rtl .oe_e a  {
 font-family: "entypoRegular" !important;
-}
+} */
 
 
 .rtl .oe_kanban_action_button{
@@ -477,7 +477,7 @@ float: left;
   float: left;
 }*/
 /*--------------------application header-------------------*/
-./*rtl  .oe_view_manager table.oe_view_manager_header h2 {
+/*.rtl  .oe_view_manager table.oe_view_manager_header h2 {
     float: right;
 }*/
 /*----------------------------Messageing--------------------------*/
@@ -486,8 +486,8 @@ left:auto
 }*/
 /*----------------------------followers--------------------------*/
 .rtl  .oe_followers .oe_remove_follower {
-right:auto;
-left:0px;
+  right:auto;
+  left:0px;
 }
 .rtl  .oe_followers .oe_invite {
     float: left;
@@ -917,9 +917,7 @@ float: left !important;
   width:345px;
 }
 
------popover------
 .popover {
-    /*direction: rtl*/;
     -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
     -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
     -o-transform: matrix(-1, 0, 0, 1, 0, 0);
