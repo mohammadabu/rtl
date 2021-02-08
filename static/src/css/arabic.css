@@ -433,6 +433,9 @@ float: right !important;
 display: flex !important;
 }
 
+.rtl .o_main_navbar >  button{
+  float: right;
+}
 /*--------------------------Dialog------------------------------------*/
 .rtl .ui-dialog .ui-dialog-title {
     float: right;
