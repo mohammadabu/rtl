@@ -14,11 +14,11 @@ class Language(models.Model):
         langs = self.search([('active', '=', True)])
         return dict([(lg.code, lg.direction) for lg in langs])
 
-    @api.multi
+    # @api.multi
     def get_languages_dir(self):
         return self._get_languages_dir()
 
-    @api.multi
+    # @api.multi
     def write(self, vals):
         self._get_languages_dir.clear_cache(self)
         return super(Language, self).write(vals)
