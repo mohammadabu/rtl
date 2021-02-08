@@ -1117,6 +1117,6 @@ body .o_form_view .o_group.o_inner_group.oe_subtotal_footer{
 }
 
 
-html .rtl .o_web_client > .o_action_manager{
+html body.rtl.o_web_client .o_action_manager{
   direction: rtl;
 }
