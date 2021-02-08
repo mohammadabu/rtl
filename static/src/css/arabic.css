@@ -433,7 +433,7 @@ float: right !important;
 display: flex !important;
 }
 
-.rtl .o_main_navbar >  button{
+.rtl .o_main_navbar > a, .rtl .o_main_navbar > button{
   float: right;
 }
 /*--------------------------Dialog------------------------------------*/
