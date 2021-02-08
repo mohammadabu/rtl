@@ -1115,3 +1115,8 @@ body .o_form_view .o_group.o_inner_group.oe_subtotal_footer{
     left: 8px;
     right: auto;
 }
+
+
+html .rtl .o_web_client > .o_action_manager{
+  direction: rtl;
+}
